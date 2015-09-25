@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "easyfeira": {
+    "name": "easyfeira",
+    "connector": "mysql",
+    "database" : "easyfeira",
+    "username" : "root",
+    "password" : "admin"
+  }
+}

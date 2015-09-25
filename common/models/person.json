@@ -1,0 +1,37 @@
+{
+  "name": "person",
+  "plural": "people",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "cpf": {
+      "type": "string"
+    },
+    "buyer":{
+      "type": "boolean"
+    },
+    "doer":{
+      "type": "boolean"
+    },
+    "created_at":{
+      "type": "date"
+    },
+    "updated_at":{
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
